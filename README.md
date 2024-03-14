@@ -2,15 +2,15 @@
 
 ## Overview
 
-In Lab 4, we extend the functionality of the web mapping application developed in Lab 3 by designing a beautiful map layer with Mapbox Studio. This layer is then integrated into the existing GeoWeb application, providing users with the ability to toggle between the original base map and the newly designed Mapbox layer.
+In Lab 4, we extend the functionality of the web mapping application developed in Lab 3 by designing a beautiful map layer with Mapbox Studio. This layer is integrated into the existing GeoWeb application, providing users with the ability to toggle between the original base map and the newly designed Mapbox layer.
 
 
 ## Project Structure
 
-app.py: Flask application server script, serving the web mapping interface.
-index.html: The main HTML page that includes the interface for the map and layer toggling functionality.
-main.js: JavaScript file handling the client-side logic for map interaction, including adding the custom Mapbox layer to the Leaflet map.
-style.css: Custom styles for the web application, ensuring a user-friendly experience and responsive design.
+- app.py: Flask application server script, serving the web mapping interface.
+- index.html: The main HTML page that includes the interface for the map and layer toggling functionality.
+- main.js: JavaScript file handling the client-side logic for map interaction, including adding the custom Mapbox layer to the Leaflet map.
+- style.css: Custom styles for the web application, ensuring a user-friendly experience and responsive design.
 
 ## Custom Map Layer Design
 
