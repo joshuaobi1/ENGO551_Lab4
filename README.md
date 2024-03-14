@@ -32,6 +32,6 @@ The Mapbox layer is added to the Leaflet map using the L.TileLayer class, which 
 - The date range picker still allows for selection of a date range to filter building permits.
 - The Mapbox layer can be toggled on and off using the layer control in the top-right corner of the map interface.
 
-## Additional Notes
+## Additional Information
 
 A valid Mapbox user id, style id and access token is required to load the custom layer without issues.
