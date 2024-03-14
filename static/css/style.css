@@ -1,0 +1,50 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    padding-top: 20px;
+    max-width: 980px; /* Width ajdusted as needed */
+    margin: auto;
+}
+
+#mapid {
+    height: 500px; /* Height adjusted as needed */
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px; /* Space after the map before any additional content */
+}
+
+/* Style for the date range picker */
+#date-range {
+    width: 100%; /* Full width */
+    max-width: 400px; /* Maximum width */
+    margin-bottom: 10px;
+}
+
+/* Style for the search button */
+#search-form button {
+    width: 100%;
+    max-width: 400px; /* To match the date picker width */
+}
+
+/* To make sure the Leaflet control layers menu doesn't overlap with  date picker */
+.leaflet-control-layers {
+    margin-top: 50px; /* Margin can be adjusted as needed */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #mapid {
+        height: 300px; /* Smaller height on smaller screens */
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    #date-range, #search-form button {
+        width: 100%;
+    }
+}
